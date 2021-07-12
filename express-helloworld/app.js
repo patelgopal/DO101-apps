@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World from DO101-Openshift!\n');
+  res.send('Hello World from DO101\n');
 });
 
 app.listen(8080, function () {
